@@ -1,0 +1,455 @@
+﻿.group-1,
+.group-1 * {
+  box-sizing: border-box;
+}
+.group-1 {
+  height: 1946px;
+  position: relative;
+}
+.pc-1920 {
+  background: var(--black, #1b1c21);
+  padding: 0px 360px 48px 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1920px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header {
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.photo {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  object-fit: cover;
+}
+.div {
+  color: var(--white, #fffff8);
+  text-align: right;
+  font-family: var(--r-16-font-family, "Gerbera-Regular", sans-serif);
+  font-size: var(--r-16-font-size, 16px);
+  line-height: var(--r-16-line-height, 130%);
+  letter-spacing: var(--r-16-letter-spacing, -0.03em);
+  font-weight: var(--r-16-font-weight, 400);
+  position: relative;
+}
+.button {
+  background: var(--tonal, #313237);
+  border-radius: 4px;
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 48px;
+  position: relative;
+}
+.text {
+  color: var(--white, #fffff8);
+  text-align: right;
+  font-family: var(--r-16-font-family, "Gerbera-Regular", sans-serif);
+  font-size: var(--r-16-font-size, 16px);
+  line-height: var(--r-16-line-height, 130%);
+  letter-spacing: var(--r-16-letter-spacing, -0.03em);
+  font-weight: var(--r-16-font-weight, 400);
+  position: relative;
+}
+._21-front-end {
+  color: var(--white, #fffff8);
+  text-align: left;
+  font-family: var(--h-1-font-family, "Gerbera-Regular", sans-serif);
+  font-size: var(--h-1-font-size, 106px);
+  line-height: var(--h-1-line-height, 90%);
+  letter-spacing: var(--h-1-letter-spacing, -0.05em);
+  font-weight: var(--h-1-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div3 {
+  color: var(--white, #fffff8);
+  text-align: left;
+  font-family: var(--r-16-font-family, "Gerbera-Regular", sans-serif);
+  font-size: var(--r-16-font-size, 16px);
+  line-height: var(--r-16-line-height, 130%);
+  letter-spacing: var(--r-16-letter-spacing, -0.03em);
+  font-weight: var(--r-16-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.div4 {
+  color: var(--white, #fffff8);
+  text-align: left;
+  font-family: "Gerbera-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  position: relative;
+  width: 389.33px;
+}
+.div5 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.div6 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 794.67px;
+  position: relative;
+}
+.div7 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.div8 {
+  color: var(--white, #fffff8);
+  text-align: left;
+  font-family: var(--r-16-font-family, "Gerbera-Regular", sans-serif);
+  font-size: var(--r-16-font-size, 16px);
+  line-height: var(--r-16-line-height, 130%);
+  letter-spacing: var(--r-16-letter-spacing, -0.03em);
+  font-weight: var(--r-16-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.div9 {
+  color: var(--white, #fffff8);
+  text-align: left;
+  font-family: var(--r-16-font-family, "Gerbera-Regular", sans-serif);
+  font-size: var(--r-16-font-size, 16px);
+  line-height: var(--r-16-line-height, 130%);
+  letter-spacing: var(--r-16-letter-spacing, -0.03em);
+  font-weight: var(--r-16-font-weight, 400);
+  position: relative;
+  width: 389px;
+}
+.div10 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div11 {
+  color: var(--white-50, rgba(255, 255, 248, 0.5));
+  text-align: left;
+  font-family: var(--r-16-font-family, "Gerbera-Regular", sans-serif);
+  font-size: var(--r-16-font-size, 16px);
+  line-height: var(--r-16-line-height, 130%);
+  letter-spacing: var(--r-16-letter-spacing, -0.03em);
+  font-weight: var(--r-16-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.div12 {
+  color: var(--white, #fffff8);
+  text-align: left;
+  font-family: var(--r-48-font-family, "Gerbera-Regular", sans-serif);
+  font-size: var(--r-48-font-size, 48px);
+  line-height: var(--r-48-line-height, 120%);
+  letter-spacing: var(--r-48-letter-spacing, -0.04em);
+  font-weight: var(--r-48-font-weight, 400);
+  position: relative;
+}
+.div13 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 795px;
+  position: relative;
+}
+.div14 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div15 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.input2 {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--border-20, rgba(255, 255, 248, 0.2));
+  border-width: 1px;
+  padding: 13px 16px 14px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 48px;
+  position: relative;
+}
+.text2 {
+  color: var(--white-50, rgba(255, 255, 248, 0.5));
+  text-align: left;
+  font-family: "Gerbera-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  position: relative;
+}
+.input3 {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--red, #ff312e);
+  border-width: 1px;
+  padding: 13px 16px 14px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 48px;
+  position: relative;
+}
+.text3 {
+  color: var(--red, #ff312e);
+  text-align: left;
+  font-family: "Gerbera-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  position: relative;
+}
+.input-name {
+  background: var(--black, #1b1c21);
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 12px;
+  top: -8px;
+}
+.text4 {
+  color: var(--red, #ff312e);
+  text-align: left;
+  font-family: "Gerbera-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  position: relative;
+}
+.error-text {
+  color: var(--red, #ff312e);
+  text-align: left;
+  font-family: "Gerbera-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.text5 {
+  color: var(--white, #fffff8);
+  text-align: left;
+  font-family: "Gerbera-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  position: relative;
+}
+.text6 {
+  color: var(--white-50, rgba(255, 255, 248, 0.5));
+  text-align: left;
+  font-family: "Gerbera-Regular", sans-serif;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  position: relative;
+}
+.input4 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 144px;
+  position: relative;
+}
+.input5 {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--border-20, rgba(255, 255, 248, 0.2));
+  border-width: 1px;
+  padding: 13px 16px 14px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.button2 {
+  background: var(--green, #3e885b);
+  border-radius: 4px;
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 48px;
+  position: relative;
+}
+.div16 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.div17 {
+  color: var(--white, #fffff8);
+  text-align: center;
+  font-family: "Gerbera-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+  text-decoration: underline;
+  position: relative;
+}
+
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --black: #1b1c21;
+  --white: #fffff8;
+  --red: #ff312e;
+  --white-50: rgba(255, 255, 248, 0.5);
+  --border-20: rgba(255, 255, 248, 0.2);
+  --border-40: rgba(255, 255, 248, 0.4);
+  --green: #3e885b;
+  --green-hover: linear-gradient(
+      to left,
+      rgba(27, 28, 33, 0.2),
+      rgba(27, 28, 33, 0.2)
+    ),
+    linear-gradient(to left, #3e885b, #3e885b);
+  --tonal: #313237;
+  --tonal-hover: #49494c;
+
+  /* Fonts */
+  --r-48-font-family: Gerbera-Regular, sans-serif;
+  --r-48-font-size: 48px;
+  --r-48-line-height: 120%;
+  --r-48-font-weight: 400;
+  --r-48-font-style: normal;
+  --r-24-font-family: Gerbera-Regular, sans-serif;
+  --r-24-font-size: 24px;
+  --r-24-line-height: 120%;
+  --r-24-font-weight: 400;
+  --r-24-font-style: normal;
+  --r-16-font-family: Gerbera-Regular, sans-serif;
+  --r-16-font-size: 16px;
+  --r-16-line-height: 130%;
+  --r-16-font-weight: 400;
+  --r-16-font-style: normal;
+  --h-1-font-family: Gerbera-Regular, sans-serif;
+  --h-1-font-size: 106px;
+  --h-1-line-height: 90%;
+  --h-1-font-weight: 400;
+  --h-1-font-style: normal;
+
+  /* Effects */
+}
